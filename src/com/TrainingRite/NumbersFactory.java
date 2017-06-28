@@ -3,13 +3,13 @@ package com.TrainingRite;
 public class NumbersFactory {
 
 	static int localArray[] = {5, 10, 20, 15, 35, 2, 75, 40};
-	
+
 	public static void main(String[] args) {
-		
+
 		//Find the maximum value
 		int arrayMax = findMax(localArray);
 		System.out.println("The maximum number in the array is: " + arrayMax);
-		
+
 		//Sort array
 		int k;
 		int length = localArray.length;
@@ -37,20 +37,20 @@ public class NumbersFactory {
 				max = i;
 			}
 		}
-		
+
 		return max;
 	}
-	
+
 	public static void swap(int a, int b) {
 		int temp = localArray[a];
 		localArray[a] = localArray[b];
 		localArray[b] = temp;
 	}
-	
+
 	public static void showArray() {
 		for (int value : localArray){
 			System.out.print(value + "  ");
 		}
 	}
-	
+
 }
