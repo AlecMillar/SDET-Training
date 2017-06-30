@@ -1,4 +1,4 @@
-package databaseHomework;
+package homework.Database;
 
 public class Person {
 	//Properties

@@ -1,4 +1,4 @@
-package numbersHomework;
+package homework.NumbersFactory;
 
 import java.util.ArrayList;
 import java.util.Scanner;
